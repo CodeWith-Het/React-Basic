@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://codewith-het.github.io/React-Basic/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
