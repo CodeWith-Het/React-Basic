@@ -5,10 +5,6 @@ import IntegratingAPI from './API-Call/IntegratingAPI'
 import TwoWay from './TwoWayBlindingMiniProject'
 import FormHandlingProject from './form-handling-project'
 import API from './Direct API Call/API'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Home from './React Router Dom/Home';
-import Product from './React Router Dom/Product';
 import Routing from './React Router Dom/Routing';
 
 const App = () => {
