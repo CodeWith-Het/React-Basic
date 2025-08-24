@@ -6,12 +6,15 @@ import { createRoot } from 'react-dom/client';
 // import TwoWay from './TwoWayBlindingMiniProject.jsx'
 // import './TwoWayBlindingMiniProject.css'
 import App from './App'
+import UserContext from './Context API/UserContext';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <FormHandlingProject /> */}
     {/* < TwoWay /> */}
-    <App/>
+    <UserContext>
+      <App />
+    </UserContext>
   </StrictMode>
 );
